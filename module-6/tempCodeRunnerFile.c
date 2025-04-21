@@ -1,0 +1,2 @@
+
+    while(scanN>=1){

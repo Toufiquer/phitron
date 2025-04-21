@@ -1,0 +1,2 @@
+minN : -363
+maxN : 1Even
