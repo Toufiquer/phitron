@@ -135,7 +135,9 @@
         ".gleam": "gleam run -m $fileNameWithoutExt"
     },
     "workbench.colorTheme": "Learn with Sumit - Professional",
-    "editor.minimap.enabled": false, 
+    "editor.minimap.enabled": false,
+    "accessibility.signalOptions.volume": 0,
+    
 }
 
 
