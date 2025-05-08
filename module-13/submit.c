@@ -58,5 +58,45 @@ int main(){
         starCount += 2;
         printf("\n");
     }
+
+// ! newArr[i] + newArr[k] == x
+         int arrLen = 0;
+     int x = 0;
+    scanf("%d", &arrLen);
+    scanf("%d", &x);
+    int newArr[arrLen];
+    for (int i = 0; i < arrLen;i++){
+        scanf("%d", &newArr[i]);
+    }
+
+    for (int i = 0; i < arrLen;i++){
+        int j = arrLen;
+         for (int k = i; k < j;k++){
+        if(newArr[i]+newArr[k]== x){
+            printf("Found Number %d %d\n", newArr[i], newArr[k]);
+        }
+    }
+    }
+
+// ! different element check
+         int arrLen = 0;
+     int x = 0;
+    scanf("%d", &arrLen);
+    scanf("%d", &x);
+    int newArr[arrLen];
+    for (int i = 0; i < arrLen;i++){
+        scanf("%d", &newArr[i]);
+    }
+
+    for (int i = 0; i < arrLen;i++){
+        int j = arrLen;
+         for (int k = i; k < j;k++){
+        if(newArr[i]+newArr[k]== x){
+            if(newArr[i]!=newArr[k]){
+                printf("Found Number %d %d\n", newArr[i], newArr[k]);
+            }
+        }
+    }
+    }
         return 0;
 }
