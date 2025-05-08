@@ -3,26 +3,32 @@
 #include <math.h>
 #include <stdlib.h>
 
-void printHash(int n){
-    for(int i=0;i<n;i++){
-        printf("#");
+ void odd_even(){
+    int n;
+    scanf("%d",&n);
+    if(n<0){
+        n = 0;
     }
-    printf("\n");
-}
-void printDash(int n){
+    int a[n];
+    
     for(int i=0;i<n;i++){
-        printf("-");
+        scanf("%d",&a[i]);
     }
-    printf("\n");
-}
+    int odd = 0;
+    int even = 0;
+    for(int i = 0; i < n; i++){
+        if(a[i]%2==0){
+            even++;
+        }else{
+            odd++;
+        }
+    }
+    printf("%d %d", even,odd);
+ }
+ 
 int main(){
-    int a;
-    scanf("%d",&a);
-    for(int i=1;i<=a;i++){ 
-        printHash(i);
-    }
-    for (int i = a-1; i >= 1;i--){ 
-        printDash(i);
-    }
-        return 0;
+    odd_even();
+
+    return 0;
 }
+
