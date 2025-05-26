@@ -1,7 +1,8 @@
-#include<stdio.h>
+#include<bits/stdc++.h>
 int main(){
     // ! 
 
 
-return 0;
+
+    return 0;
 }

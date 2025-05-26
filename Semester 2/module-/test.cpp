@@ -1,10 +1,8 @@
-#include<iostream>
+#include<bits/stdc++.h>
 int main(){
-    // !
+    // ! 
 
-    int x = 10;
-    std::cout << x;
-    std::cout << "\nHello word"  ;
+
 
     return 0;
 }
