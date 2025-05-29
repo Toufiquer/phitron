@@ -406,8 +406,13 @@
     "editor.formatOnSave": true
   },
   "prettier.parser": "c",
-  "cSpell.words": ["stdiobool"],
+  "cSpell.words": [
+    "declearation",
+    "stdiobool"
+  ],
   "files.associations": {
-    "stdbool.h": "c"
+    "*html": "html",
+    "stdbool.h": "c",
+    "ostream": "cpp"
   }
 }
