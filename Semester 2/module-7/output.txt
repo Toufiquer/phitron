@@ -1,0 +1,6 @@
+Shakib 4 4
+Rakib 5 4
+Bakib 5 4
+Fakib 7 4
+Nakib 7 5
+Akib 9 4
