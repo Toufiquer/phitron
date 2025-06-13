@@ -15,7 +15,18 @@ int main(){
         // ! loop throw X check the first letter with first letter of X;
         for (int j = 0; j < lenS;j++){
             if(S[j] == X[0]){
-                cout << "match:"<< j <<  endl;
+                // ! check all letter of X matching
+                int isMatch = 0; // ! 0 ->> false, 1 ->> true
+                for (int k = 0; k < lenX;k++){
+                    if(X[k]==S[k+j]){
+                        isMatch = 1;
+                    }else{
+                        isMatch = 0;
+                    }
+                }
+                    // ! check all letter of X matching
+
+                    cout << "match:" << j<<":"<< isMatch << endl;
             }
         }
 
