@@ -415,6 +415,9 @@
     "stdbool.h": "c",
     "ostream": "cpp",
     "iostream": "cpp",
-    "istream": "cpp"
+    "istream": "cpp",
+    "random": "cpp",
+    "initializer_list": "cpp",
+    "valarray": "cpp"
   }
 }
