@@ -1,1 +1,7 @@
-YES
+ 0 B 100
+ 0 A 100
+ 0 C 100
+R: 
+Rakib 7 B 90
+Sakib 10 A 85
+Ahsan 9 C 36
