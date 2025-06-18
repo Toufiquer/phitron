@@ -418,6 +418,8 @@
     "istream": "cpp",
     "random": "cpp",
     "initializer_list": "cpp",
-    "valarray": "cpp"
+    "valarray": "cpp",
+    "chrono": "cpp",
+    "limits": "cpp"
   }
 }
