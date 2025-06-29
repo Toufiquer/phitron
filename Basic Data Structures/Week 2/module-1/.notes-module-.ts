@@ -13,10 +13,10 @@
 // 1. Creating a Node
 
 // ! video - 4
-// 1.
+// 1. Creating a Node Animated
 
 // ! video - 5
-// 1.
+// 1. Dynamic Nodes
 
 // ! video - 6
 // 1.
