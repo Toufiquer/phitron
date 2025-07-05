@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void fun(){
+void fun(int *p){
     *p = 100;
     // cout << "In fun: " << *p << endl;
 }
