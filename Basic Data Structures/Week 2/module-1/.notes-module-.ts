@@ -13,37 +13,22 @@
 // 1. Creating a Node
 
 // ! video - 4
-// 1. Creating a Node Animated
+// 1.  Printing Linked List
 
 // ! video - 5
-// 1. Dynamic Nodes
+// 1. Creating a Node Animated
 
 // ! video - 6
-// 1.
+// 1. Dynamic Nodesx
 
 // ! video - 7
-// 1.
+// 1. Dynamic Nodes
 
 // ! video - 8
-// 1.
+// 1. Printing Linked List
 
 // ! video - 9
-// 1.
+// 1. Printing Linked List Animated
 
 // ! video - 10
-// 1.
-
-// ! video - 11
-// 1.
-
-// ! video - 12
-// 1.
-
-// ! video - 13
-// 1.
-
-// ! video - 14
-// 1.
-
-// ! video - 15
-// 1.
+// 1. Summary

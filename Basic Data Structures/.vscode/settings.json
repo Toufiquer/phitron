@@ -28,6 +28,9 @@
         "sstream": "cpp",
         "streambuf": "cpp",
         "system_error": "cpp",
-        "regex": "cpp"
+        "regex": "cpp",
+        "algorithm": "cpp",
+        "fstream": "cpp",
+        "utility": "cpp"
     }
 }
