@@ -1,2 +1,6 @@
-abcdef
-abcdef
+In fun:pringting pointer: 200
+In fun:pringting address:
+In main:pringting pointer 0
+In fun:pringting address:
+10
+working 

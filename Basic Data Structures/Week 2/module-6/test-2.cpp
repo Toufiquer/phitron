@@ -17,6 +17,6 @@ int main(){
     cout << "In main:pringting pointer " << *p << endl;
     cout << "In fun:pringting address:"<< endl;
     cout << x << endl;
-
+    cout << "working ";
     return 0;
 }

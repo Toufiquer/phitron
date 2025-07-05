@@ -30,6 +30,8 @@ int main(){
     b->next = c;
  
     insert_at_head(head, 5);
+    insert_at_head(head, 50);
+    insert_at_head(head, 500);
 
 
     // !  Printing the Node
