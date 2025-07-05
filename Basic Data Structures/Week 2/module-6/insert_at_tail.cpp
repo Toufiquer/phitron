@@ -19,7 +19,7 @@ void insert_at_tail(Node* &head, int value){
         return;
     }
     Node *tem = head;
-    while(tem->next == NULL){
+    while(tem->next != NULL){
         
         tem = tem->next;
     }
@@ -29,13 +29,8 @@ void insert_at_tail(Node* &head, int value){
 int main(){
     // !  Creating a Node
     Node* head = new Node(10);
-    Node* a = new Node(20);
-    Node* b = new Node(30);
-    Node* c = new Node(40);
 
-    head->next = a;
-    a->next = b;
-    b->next = c;
+ 
  
     insert_at_tail(head, 5);
     insert_at_tail(head, 50);
