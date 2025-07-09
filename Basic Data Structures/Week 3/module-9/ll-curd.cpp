@@ -92,6 +92,7 @@ void delete_at_any_position(Node* &head, Node *&tail,int pos){
     }
     temp->previous->next = temp -> next;
     temp->next->previous = temp->previous;
+    delete temp;
 }
 
 void delete_from_head(Node* &head, Node * &tail){
