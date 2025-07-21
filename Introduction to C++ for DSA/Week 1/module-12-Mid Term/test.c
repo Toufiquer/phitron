@@ -77,7 +77,7 @@ int main(){
     //         printf("%c - %d\n",i+97, result[i]); 
     //     }
     // }
+    printf("testing");
 
-
-return 0;
+    return 0;
 }
