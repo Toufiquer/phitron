@@ -120,17 +120,22 @@ int main() {
 
 // sort(greater<int>()): To sort in descending order, you can pass std::greater<int>() as a comparison function to the sort method.
 
-// Sources
-// help
-// geeksforgeeks.org
-// geeksforgeeks.org
-// geeksforgeeks.org
-// Google Search Suggestions
-// Display of Search Suggestions is required when using Grounding with Google Search. Learn more
-// C++ std::list delete from head
-// C++ std::list delete from tail
-// C++ std::list delete from specific position
-// C++ std::list forward iteration
-// C++ std::list reverse iteration
-// C++ std::list sort ascending
-// C++ std::list sort descending
+
+// !! Linked List Operations
+// 1. Insertion:
+//  - at head
+//  - at tail
+//  - at any position
+
+// 1. Deletion:
+//  - head
+//  - tail
+//  - any position
+
+// 2. Printing:
+//  - forward
+//  - backward
+
+// 3. Sorting
+//  - Ascending
+//  - Descending
