@@ -1,0 +1,87 @@
+Cousin Counter
+Time Limit: 1 Seconds
+
+Memory Limit: 4.88 MB
+
+Description
+Binary Tree cousin counter
+
+Statement
+You are given a binary tree. Two nodes are cousins if:
+
+They are on the same level in the tree.
+They have different parents.
+Your task is to replace each node's value with the number of cousins it has in the tree.
+
+Print the binary tree after the transformation in level order traversal.
+
+Input will be given in level order traversal format, where a missing child is represented by -1.
+
+Constraints
+1 ≤ Number of nodes ≤ 103
+Node values are integers: 0 ≤ value ≤ 103
+Input tree is not necessarily complete or balanced.
+Input format
+A list of values in level order traversal, where -1 represents a missing child.
+
+Values are space-separated.
+
+Output Format
+A single line containing the level order traversal of the transformed tree.
+
+Sample Input 1
+1 2 3 -1 -1 4 5 -1 -1 -1 -1
+Sample Output 1
+0 0 0 0 0 
+Explanation 1
+1
+
+/ \
+
+2 3
+
+/ \
+
+4 5
+
+
+Level 0: Node 1 → 0 cousins (root has no cousins).
+
+
+Level 1: Nodes 2 and 3 are siblings (child of same parent) → cousins = 0 each.
+
+
+Level 2: Nodes 4 and 5 are siblings (child of same parent) → cousins = 0 each.
+
+Sample Input 2
+1 2 3 4 5 -1 6 -1 -1 -1 -1 -1 -1
+Sample Output 2
+0 0 0 1 1 2 
+Explanation 2
+1
+
+/ \
+
+2 3
+
+/ \ \
+
+4 5 6
+
+
+Level 0: Node 1 → 0 cousins.
+
+
+Level 1: Nodes 2 and 3 are siblings → cousins = 0 each.
+
+
+Level 2: Nodes 4, 5, 6:
+
+
+4 has 1 cousin (6)
+
+
+5 has 1 cousin (6)
+
+
+6 has 2 cousins (4 and 5)

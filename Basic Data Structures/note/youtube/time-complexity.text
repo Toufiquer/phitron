@@ -1,0 +1,98 @@
+// 1. O(1) -> 
+// 2. O(n) -> 
+// 3. O(n^2) -> 
+// 4. O(logn) ->  
+// 5. O(Nlogn) ->
+// 6. O(2^n) -> 
+
+
+-----------------------------------------------------------------------------------
+1. O(1) -> Constant Time
+
+An algorithm has a constant time complexity if its execution time is independent of the size of the input data. The operation will take the same amount of time regardless of how much data it's working with.
+
+C++ STL Examples:
+
+std::vector, std::array, std::deque: Accessing an element by its index using the [] operator or the .at() member function.
+
+std::vector: Adding or removing an element at the end using .push_back() and .pop_back() has an amortized constant time complexity.
+
+std::unordered_map, std::unordered_set: On average, insertion, deletion, and lookup of elements have a constant time complexity. However, in the worst-case scenario, these operations can take linear time, O(n).
+
+std::stack, std::queue: The .push(), .pop(), .front(), and .top() operations are all constant time.
+
+std::list: Adding or removing elements at the beginning or end using .push_front(), .pop_front(), .push_back(), and .pop_back().
+-----------------------------------------------------------------------------------
+
+2. O(n) -> Linear Time
+
+An algorithm's execution time grows linearly with the size of the input. If the input data doubles, the runtime will also approximately double. This is common for algorithms that need to iterate through all elements in a container once.
+
+C++ STL Examples:
+
+std::vector, std::list, std::deque, std::string: Iterating through all the elements.
+
+std::find: This algorithm performs a linear search through a range of elements.
+
+std::vector, std::deque: Inserting or deleting an element at the beginning or in the middle of the container.
+
+std::string: Searching for a substring.
+
+-----------------------------------------------------------------------------------
+3. O(n^2) -> Quadratic Time
+
+The execution time of an algorithm with quadratic time complexity is proportional to the square of the input size. This often occurs when nested loops are used to iterate over the same data. For example, for each element in a collection, you iterate through the entire collection again.
+
+C++ STL Examples:
+
+This complexity is less a feature of a single STL function and more about how you use them. A common example is a nested loop over a std::vector:
+
+code
+C++
+download
+content_copy
+expand_less
+
+std::vector<int> my_vector = {1, 2, 3, 4, 5};
+for (int i = 0; i < my_vector.size(); ++i) {
+    for (int j = 0; j < my_vector.size(); ++j) {
+        // Some operation
+    }
+}
+
+Simple sorting algorithms like Bubble Sort or Insertion Sort, if implemented using STL containers, would have this complexity.
+
+-----------------------------------------------------------------------------------
+4. O(log n) -> Logarithmic Time
+
+An algorithm with logarithmic time complexity becomes more efficient as the input size increases. The runtime grows at a much slower rate than the input size. This is characteristic of algorithms that repeatedly divide the input data in half, such as binary search.
+
+C++ STL Examples:
+
+std::map, std::set, std::multimap, std::multiset: These containers are typically implemented as balanced binary search trees (like red-black trees). Operations like insertion, deletion, and searching for an element are logarithmic in time.
+
+std::binary_search, std::lower_bound, std::upper_bound: These algorithms operate on sorted ranges and perform a binary search.
+
+-----------------------------------------------------------------------------------
+5. O(n log n) -> Linearithmic Time
+
+This time complexity is a combination of linear and logarithmic time. It's common in efficient sorting algorithms that work by dividing the data and then conquering it.
+
+C++ STL Examples:
+
+std::sort: The C++ standard mandates that the complexity of std::sort is O(n log n) on average.
+
+std::stable_sort: This sorting algorithm also has a time complexity of O(n log n).
+
+std::partial_sort: To sort the first 'k' elements, the complexity is O(n log k).
+
+-----------------------------------------------------------------------------------
+6. O(2^n) -> Exponential Time
+
+An algorithm with exponential time complexity has a runtime that doubles with each additional element in the input size. These algorithms are generally considered very slow and are impractical for large datasets. This often occurs with recursive algorithms that solve a problem by breaking it down into two or more smaller subproblems of the same type.
+
+C++ STL Examples:
+
+There are no direct STL containers or algorithms that have an inherent exponential time complexity for their primary operations. This complexity usually arises from the algorithmic approach itself. For instance, a naive recursive implementation to find the nth Fibonacci number exhibits exponential time complexity. While you would use STL containers to store the data, the container itself is not the source of the complexity.
+
+-----------------------------------------------------------------------------------

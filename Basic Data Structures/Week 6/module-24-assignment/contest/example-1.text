@@ -1,0 +1,52 @@
+Summation
+Time Limit: 1 Seconds
+
+Memory Limit: 2.93 MB
+
+Description
+You have two numbers, but they are lost in such a way that you can only take them as input. Your task is to calculate the sum of these two numbers and display the result as output.
+
+Statement
+You have two numbers, but they are lost in such a way that you can only take them as input. Your task is to calculate the sum of these two numbers and display the result as output.
+
+Constraints
+0<= N <=1000
+Input format
+The first line contains an integer A.
+The second line contains an integer B.
+
+
+Output Format
+A single integer representing the sum A+B
+Sample Input 1
+5 2
+Sample Output 1
+7
+Sample Input 2
+2 3
+Summation
+Time Limit: 1 Seconds
+
+Memory Limit: 2.93 MB
+
+Description
+You have two numbers, but they are lost in such a way that you can only take them as input. Your task is to calculate the sum of these two numbers and display the result as output.
+
+Statement
+You have two numbers, but they are lost in such a way that you can only take them as input. Your task is to calculate the sum of these two numbers and display the result as output.
+
+Constraints
+0<= N <=1000
+Input format
+The first line contains an integer A.
+The second line contains an integer B.
+
+
+Output Format
+A single integer representing the sum A+B
+Sample Input 1
+5 2
+Sample Output 1
+7
+Sample Input 2
+2 3

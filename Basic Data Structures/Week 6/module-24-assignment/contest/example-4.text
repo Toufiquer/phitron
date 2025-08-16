@@ -1,0 +1,38 @@
+Mission: Retake Shiganshina
+Time Limit: 1 Seconds
+
+Memory Limit: 2.93 MB
+
+Statement
+Years ago, the Armoured  Titan and the Colossal Titan breached Shiganshina District, forcing humanity to retreat behind Wall Rose.
+
+
+
+Now, Commander Erwin’s plan is to reclaim Shiganshina by clearing a line of Titan-infested sectors standing between the Scouts and the district. There are N sectors in total, and each sector i contains Si Titans. Commander Erwin has chosen the finest soldier Levi Ackerman for this task. 
+
+
+
+Levi can wipe out any continuous group of sectors if the total Titans in that group is exactly K.
+
+Your task is to count all continuous groups of sectors, even if some sectors are counted in more than one group, so Erwin can plan the attack to defeat the Colossal and Armoured Titans and reclaim Shiganshina. 
+
+Constraints
+1 ≤ N ≤ 103
+1 ≤ Si ≤ 103
+1 ≤ K ≤ 106
+Input format
+First line contains two integers N and K — the number of sectors and the target Titan count.
+Second line contains N integers S1,S2​,S3 .....Sn— the number of Titans in each sector. 
+Output Format
+Print a single integer — the number of continuous segments whose total Titan count is exactly K
+Sample Input 1
+3 3
+1 2 1
+Sample Output 1
+2
+Explanation 1
+There are 3 sectors with Titans [1, 2, 1] and the target sum is 3.
+
+The continuous groups [1, 2] (sectors 1–2) and [2, 1] (sectors 2–3) both add up to exactly 3.
+
+So, the answer is 2.
