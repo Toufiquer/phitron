@@ -1,0 +1,5 @@
+0 par : 0
+1 par : 0
+2 par : 0
+3 par : 0
+Cycle Detected

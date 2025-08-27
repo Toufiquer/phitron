@@ -1,0 +1,20 @@
+/**
+ * 
+ * 1. Graphs
+ *    a. vertex / vertexs
+ *    b. edge / egges -> i. directional/ uni-directional. ii. bi-directional / unidirectional
+ *    c. weighted -> i. weighted. ii. un-weighted
+ * 
+ * i. Adjacency List -> arrayList<edge> graph[v]
+ * ii. Adjacency Matrix
+ * iii. Edge List
+ * iv. 2d Matirx(Implicit Graph)
+ * v. 
+ * 
+ * 
+ * */ 
+
+
+/**
+ * 51:00 -> Start Adjacency Matrix
+ * */ 
