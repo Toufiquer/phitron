@@ -2,46 +2,19 @@
 // 1. introduction
 
 // ! video - 1
-// 1.
+// 1.  Roads Construction
 
 // ! video - 2
-// 1.
+// 1. Roads not only in berland theory
 
 // ! video - 3
-// 1.
+// 1. Roads not only in berland implementation
 
 // ! video - 4
-// 1.
+// 1. Dijkstra Path Printing
 
 // ! video - 5
-// 1.
+// 1. Sundorban
 
 // ! video - 6
-// 1.
-
-// ! video - 7
-// 1.
-
-// ! video - 8
-// 1.
-
-// ! video - 9
-// 1.
-
-// ! video - 10
-// 1.
-
-// ! video - 11
-// 1.
-
-// ! video - 12
-// 1.
-
-// ! video - 13
-// 1.
-
-// ! video - 14
-// 1.
-
-// ! video - 15
-// 1.
+// 1. Summary

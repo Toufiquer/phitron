@@ -1,2 +1,5 @@
-abcdef
-abcdef
+YES
+NO
+YES
+NO
+YES

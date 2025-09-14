@@ -2,46 +2,31 @@
 // 1. introduction
 
 // ! video - 1
-// 1.
+// 1. What is Dynamic Programming
 
 // ! video - 2
-// 1.
+// 1. Recursion recap
 
 // ! video - 3
-// 1.
+// 1. Factorial with recursion
 
 // ! video - 4
-// 1.
+// 1. Fibonacci with recursion
 
 // ! video - 5
-// 1.
+// 1. Recursive call visualizer
 
 // ! video - 6
-// 1.
+// 1. Optimising Fibonacci
 
 // ! video - 7
-// 1.
+// 1. Fibonacci with DP
 
 // ! video - 8
-// 1.
+// 1. Fibonacci bottom up
 
 // ! video - 9
-// 1.
+// 1. LeetCode Climbing Stairs
 
 // ! video - 10
-// 1.
-
-// ! video - 11
-// 1.
-
-// ! video - 12
-// 1.
-
-// ! video - 13
-// 1.
-
-// ! video - 14
-// 1.
-
-// ! video - 15
-// 1.
+// 1. Summary 
